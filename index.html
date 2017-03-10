@@ -2,19 +2,28 @@
 <html>
    <head>
        <title>My Caculator</title>
+       <link rel="stylesheet" href="style.css" type="text/css" />
    </head>
    <body>
+       <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
        <h1 id="title">My Caculator</h1>
        <div id="keypad">
-           <table border="2">
+           <table>
                <tr>
-                   <td colspan="4" id="display-bar" height="20px"></td>
+                   <td colspan="4" height="20px"><div id="display-bar"></div></td>
                </tr>
                <tr>
+                    <td colspan="4"><div id="calculator-brand">TI-KITA</div></td>
+               </tr>
+               <tr>
+               
+                
+                   
                    <td><input type="button" value="9" onclick="display(9)"/></td>
                    <td><input type="button" value="8" onclick="display(8)"/></td>
                    <td><input type="button" value="7" onclick="display(7)"/></td>
                    <td><input type="button" value="/" onclick="display('/')"/></td>
+                 
             </tr>
             <tr>
                    <td><input type="button" value="6" onclick="display(6)"/></td>
